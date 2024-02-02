@@ -33,6 +33,7 @@ That's accomplished either through manifest, or calling API(s). The API way is c
 tool to generate manifest that will request everything known so far, and then deal with what we get at runtime.
 
 ### API alternative:
+
 * [SetProcessDPIAware](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setprocessdpiaware) - Windows Vista / Server 2008
 * [SetProcessDpiAwareness](https://docs.microsoft.com/cs-cz/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) - Windows 8.1 / Server 2012 R2
 * [SetProcessDpiAwarenessContext](https://docs.microsoft.com/cs-cz/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext) - Windows 10 1607 / LTSB 2016 / Server 2016
